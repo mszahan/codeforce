@@ -8,8 +8,6 @@ position_score = int(scores[k-1])
 for score in scores:
     if int(score) >= position_score and int(score) !=0:
         count +=1
-    else:
-        count = count + 0
 
 print(count)
 
